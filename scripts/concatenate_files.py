@@ -10,6 +10,7 @@ import glob
 
 out_folder = sys.argv[1]
 clean_out_str_folder = sys.argv[2]
+split = sys.argv[3]
 
 def write_file(filename, list_to_concatenate):
   with codecs.open(filename, 'w', 'utf-8') as outfile:
@@ -42,8 +43,12 @@ def collect_files(path):
 
 str_to_concatenate, txt_to_concatenate = collect_files(out_folder)
 
-filename_str = os.path.join(clean_out_str_folder, os.path.split(out_folder)[-1]+'.str')
-filename_txt = os.path.join(clean_out_str_folder, '00-Text.txt')
+split_path = os.path.join(clean_out_str_folder, split)
+if not os.path.exists(split_path):
+  os.makedirs(split_path)
+
+filename_str = os.path.join(split_path, os.path.split(out_folder)[-1]+'.str')
+filename_txt = os.path.join(split_path, '00-Text.txt')
 
 write_file(filename_str, str_to_concatenate)
 if re.search('SMorphText', out_folder):
