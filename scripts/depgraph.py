@@ -6,7 +6,7 @@ import random
 # from pprint import pprint
 
 DEFAULT_ENCODING = 'utf-8'
-CONFIG = '/content/drive/My Drive/inlg23/features.conf'
+CONFIG = '/content/Mod-D2T/scripts/features.conf'
 MAX_ORDER_TRIES = 100 # number of times to try to set order
 SENTENCE_TAG = '<SENT>'
 
