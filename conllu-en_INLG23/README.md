@@ -1,4 +1,4 @@
-These are the files that we generated for the INLG'23 paper, with the first version of the pipeline.
+These are the files that we generated for the INLG'23 paper, with the first version of the pipeline.  FORGe_colab_v2 can be found in the [M-FleNS repo](https://github.com/mille-s/M-FleNS_NLG-Pipeline/tree/main/code).
 
 | Language | English |
 |--------|--------|
