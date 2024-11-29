@@ -1,4 +1,4 @@
-These are the files that we generated for the Pan-DL'23 paper. The online version of the generatino pipeline was used: https://github.com/mille-s/DCU_TCD-FORGe_WebNLG23.
+These are the files that we generated for the Pan-DL'23 paper. The online version of the [DCU_TCD-FORGe generation pipeline](https://github.com/mille-s/DCU_TCD-FORGe_WebNLG23) was used. FORGe_colab_v4 can be found in the [M-FleNS repo](https://github.com/mille-s/M-FleNS_NLG-Pipeline/tree/main/code).
 
 | Language | Irish |
 |--------|--------|
